@@ -1,34 +1,31 @@
+import { Links } from "@/constants/social-links";
 import { Code, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const socialLinks = [
   {
-    href: "mailto:adityapandit264@gmail.com",
+    href: Links.Mail,
     icon: Mail,
-
     color: "hover:text-purple-400 hover:border-purple-400",
   },
   {
-    href: "https://www.linkedin.com/in/adityashharmaa/",
+    href: Links.LinkedIn,
     icon: Linkedin,
 
     color: "hover:text-blue-400 hover:border-blue-400",
   },
   {
-    href: "https://github.com/Aditya1or0",
+    href: Links.Github,
     icon: Github,
-
     color: "hover:text-orange-400 hover:border-orange-400",
   },
   {
-    href: "#portfolio",
+    href: Links.CodeChef,
     icon: Code,
-
     color: "hover:text-pink-400 hover:border-pink-400",
   },
   {
-    href: "tel:8742975448",
+    href: "#",
     icon: Phone,
-
     color: "hover:text-green-400 hover:border-green-400",
   },
 ];
